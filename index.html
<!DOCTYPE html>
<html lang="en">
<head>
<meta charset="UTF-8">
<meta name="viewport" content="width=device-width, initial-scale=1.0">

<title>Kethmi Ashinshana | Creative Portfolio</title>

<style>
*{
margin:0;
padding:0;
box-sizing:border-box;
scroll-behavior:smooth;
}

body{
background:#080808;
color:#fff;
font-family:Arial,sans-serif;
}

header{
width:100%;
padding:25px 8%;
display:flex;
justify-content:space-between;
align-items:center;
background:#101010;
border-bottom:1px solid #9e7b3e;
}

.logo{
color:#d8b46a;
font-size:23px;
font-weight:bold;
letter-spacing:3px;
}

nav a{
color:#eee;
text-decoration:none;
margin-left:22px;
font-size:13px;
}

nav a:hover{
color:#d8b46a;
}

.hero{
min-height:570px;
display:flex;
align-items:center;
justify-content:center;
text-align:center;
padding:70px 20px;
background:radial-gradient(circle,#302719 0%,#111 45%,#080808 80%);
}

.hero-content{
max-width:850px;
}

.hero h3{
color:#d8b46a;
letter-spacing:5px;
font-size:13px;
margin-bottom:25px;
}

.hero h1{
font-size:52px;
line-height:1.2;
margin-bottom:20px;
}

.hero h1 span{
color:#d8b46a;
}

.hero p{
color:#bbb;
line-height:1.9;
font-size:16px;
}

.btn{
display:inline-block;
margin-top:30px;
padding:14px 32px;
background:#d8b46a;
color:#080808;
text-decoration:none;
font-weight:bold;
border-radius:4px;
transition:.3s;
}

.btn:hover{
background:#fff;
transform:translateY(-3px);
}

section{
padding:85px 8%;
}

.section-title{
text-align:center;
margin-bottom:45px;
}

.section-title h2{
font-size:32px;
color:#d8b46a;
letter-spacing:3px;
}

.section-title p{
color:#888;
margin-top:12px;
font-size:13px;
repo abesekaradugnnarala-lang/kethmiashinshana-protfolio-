@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kethmi Portfolio</title>
+
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:#090909;color:white;font-family:Arial}
+header,footer{text-align:center;padding:25px;background:#151515}
+h1,h2,h3{color:#d8b46a}
+nav{text-align:center;padding:18px;background:#111}
+nav a{color:#d8b46a;text-decoration:none;margin:8px}
+.hero{text-align:center;padding:100px 15px;background:linear-gradient(135deg,#302719,#080808)}
+.hero h1{font-size:38px}
+p{color:#ccc;line-height:1.8}
+section{padding:55px 20px;text-align:center}
+.card{background:#181818;border:1px solid #806638;padding:15px;margin:15px auto;max-width:500px;border-radius:10px}
+video{width:100%}
+.btn{display:inline-block;padding:12px 25px;background:#d8b46a;color:black;text-decoration:none;border-radius:5px}
+.skills{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.skills span{border:1px solid #d8b46a;padding:12px;color:#d8b46a}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>KETHMI ASHINSHANA</h1>
+<p>GRAPHIC DESIGNER & AI DESIGNER</p>
+</header>
+
+<nav>
+<a href="#about">ABOUT</a>
+<a href="#work">WORK</a>
+<a href="#skills">SKILLS</a>
+<a href="#contact">CONTACT</a>
+</nav>
+
+<div class="hero">
+<h1>CREATIVITY MEETS IMAGINATION</h1>
+<p>Transforming Ideas Into Digital Experiences</p>
+<a class="btn" href="#work">EXPLORE MY WORK</a>
+</div>
+
+<section id="about">
+<h2>ABOUT ME</h2>
+<p>I am Kethmi Ashinshana, a Graphic Designer and AI Designer from Sri Lanka. I create AI videos, digital artwork, cinematic stories and creative designs.</p>
+</section>
+
+<section id="work">
+<h2>MY VIDEO GALLERY</h2>
+
+<div class="card">
+<video controls playsinline>
+<source src="videos/video1.mp4" type="video/mp4">
+</video>
+<h3>AI PROJECT 01</h3>
+</div>
+
+<div class="card">
+<video controls playsinline>
+<source src="videos/video2.mp4" type="video/mp4">
+</video>
+<h3>AI PROJECT 02</h3>
+</div>
+
+<div class="card">
+<video controls playsinline>
+<source src="videos/video3.mp4" type="video/mp4">
+</video>
+<h3>AI PROJECT 03</h3>
+</div>
+
+<div class="card">
+<video controls playsinline>
+<source src="videos/video4.mp4" type="video/mp4">
+</video>
+<h3>AI PROJECT 04</h3>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>MY SKILLS</h2>
+<div class="skills">
+<span>Graphic Design</span>
+<span>AI Video</span>
+<span>AI Images</span>
+<span>Digital Art</span>
+<span>Advertising</span>
+<span>Storytelling</span>
+<span>Thumbnail Design</span>
+</div>
+</section>
+
+<section id="contact">
+<h2>CONTACT ME</h2>
+<p>Kethmi Ashinshana</p>
+<p>Sri Lanka</p>
+<p>Phone: +94 71 139 5914</p>
+<p>Email: Kethmiashinshana1@gmail.com</p>
+<a class="btn" href="mailto:Kethmiashinshana1@gmail.com">EMAIL ME</a>
+</section>
+
+<footer>
+<p>© 2026 KETHMI ASHINSHANA</p>
+<p>GRAPHIC DESIGNER | AI DESIGNER</p>
+</footer>
+
+</body>
+</html>
